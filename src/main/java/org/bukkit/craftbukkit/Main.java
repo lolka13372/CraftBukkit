@@ -200,7 +200,7 @@ public class Main {
                 if (options.has("noconsole")) {
                     useConsole = false;
                 }
-
+                // Added commentse
                 System.out.println("Loading libraries, please wait...");
                 net.minecraft.server.Main.main(options);
             } catch (Throwable t) {
