@@ -200,7 +200,7 @@ public class Main {
                 if (options.has("noconsole")) {
                     useConsole = false;
                 }
-                // Removed time waiting
+                // Removed time waiting 2
                 System.out.println("Loading libraries, please wait...");
                 net.minecraft.server.Main.main(options);
             } catch (Throwable t) {
